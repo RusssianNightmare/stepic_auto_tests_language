@@ -1,0 +1,5 @@
+$kind: http-request
+name: New Request
+url: https://api.chucknorris.io/jokes/categories
+method: GET
+order: 4417340321344304

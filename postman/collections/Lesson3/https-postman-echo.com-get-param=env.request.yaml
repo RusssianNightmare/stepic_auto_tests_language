@@ -1,0 +1,7 @@
+$kind: http-request
+name: https://postman-echo.com/get?param=env
+url: https://postman-echo.com/get?param={{param}}
+method: GET
+queryParams:
+  param: "{{param}}"
+order: 4463033035491939

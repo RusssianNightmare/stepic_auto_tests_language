@@ -1,0 +1,10 @@
+$kind: http-request
+name: https://petstore.swagger.io/v2/pet/:id
+url: https://petstore.swagger.io/v2/pet/:id
+method: GET
+pathVariables:
+  id: "{{pet_id}}"
+body:
+  type: json
+  content: ""
+order: 2785558945454163

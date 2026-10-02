@@ -1,0 +1,8 @@
+$kind: collection
+name: New Folder
+scripts:
+  - type: http:beforeRequest
+    code: console.log("Pre-request - folder");
+  - type: http:afterResponse
+    code: console.log("Post-response - folder");
+order: 1891080737914879

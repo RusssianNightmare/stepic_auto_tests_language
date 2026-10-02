@@ -1,0 +1,12 @@
+$kind: collection
+name: New Collection
+variables:
+  petId: ""
+  count: ""
+scripts:
+  - type: http:afterResponse
+    code: "pm.test(\"Check status\", function() {\r
+
+          pm.response.to.have.status(200)\r
+
+      });"

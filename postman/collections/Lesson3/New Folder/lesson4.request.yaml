@@ -1,0 +1,12 @@
+$kind: http-request
+name: lesson4
+url: https://petstore.swagger.io/v2/store/inventory
+method: GET
+scripts:
+  - type: beforeRequest
+    code: console.log("Pre-request - request");
+    language: text/javascript
+  - type: afterResponse
+    code: console.log("Post-response - request");
+    language: text/javascript
+order: 1774285641989

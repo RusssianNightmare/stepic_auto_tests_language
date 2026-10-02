@@ -1,0 +1,10 @@
+$kind: collection
+name: New Folder
+scripts:
+  - type: http:afterResponse
+    code: "pm.test(\"Content-Type is present\", function () {\r
+
+      \    pm.response.to.have.header(\"Content-Type\");\r
+
+      });"
+order: 4094281049440255

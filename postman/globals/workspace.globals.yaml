@@ -1,0 +1,14 @@
+name: Globals
+values:
+  - key: pet_id
+    value: ''
+    enabled: true
+  - key: username
+    value: ''
+    enabled: true
+  - key: password
+    value: ''
+    enabled: true
+  - key: param
+    value: ''
+    enabled: true

@@ -1,0 +1,18 @@
+$kind: http-request
+name: New Request
+url: https://petstore.swagger.io/v2/pet/:id
+method: GET
+pathVariables:
+  id: "{{petId}}"
+body:
+  type: json
+  content: ""
+scripts:
+  - type: afterResponse
+    code: "pm.test(\"Status code name has string\", function () {\r
+
+      \    pm.response.to.have.status(\"OK\");\r
+
+      });"
+    language: text/javascript
+order: 1774472689564

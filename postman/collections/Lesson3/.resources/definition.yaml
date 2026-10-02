@@ -1,0 +1,10 @@
+$kind: collection
+name: Lesson3
+variables:
+  pet_id: ""
+  param: ""
+scripts:
+  - type: http:beforeRequest
+    code: console.log("Pre-request - collection");
+  - type: http:afterResponse
+    code: console.log("Post-response - collection");

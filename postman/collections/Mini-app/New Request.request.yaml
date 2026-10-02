@@ -1,0 +1,14 @@
+$kind: http-request
+name: New Request
+url: http://localhost:3000/tasks
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"title\": \"Тест\",\r
+
+    \    \"status\": \"completed\"\r
+
+    }"
+order: 1776945127068
