@@ -8,3 +8,11 @@
 ## Установка
 ```bash
 pip install -r requirements.txt
+
+## Запуск тестов
+
+pytest -v -s --language=en
+
+## Скриншоты
+
+![pytest run](screenshots/pytest_run.png)
